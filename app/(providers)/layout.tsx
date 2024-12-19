@@ -1,7 +1,8 @@
 import { PropsWithChildren } from "react";
+import ModalProvider from "./_providers/ModalProvider/ModalProvider";
 
 function layout({ children }: PropsWithChildren) {
-  return <>{children}</>;
+  return <ModalProvider>{children}</ModalProvider>;
 }
 
 export default layout;
